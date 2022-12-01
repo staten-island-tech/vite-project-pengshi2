@@ -1,19 +1,14 @@
 {
-  "name": "vite-project-pengshi2",
-  "version": "1.0.0",
-  "description": "[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=9413548)",
-  "main": "index.js",
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/staten-island-tech/vite-project-pengshi2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/staten-island-tech/vite-project-pengshi2/issues"
-  },
-  "homepage": "https://github.com/staten-island-tech/vite-project-pengshi2#readme"
+  "devDependencies": {
+    "vite": "^3.2.3"
+  }
 }

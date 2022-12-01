@@ -1,0 +1,60 @@
+const pros = [
+  {
+    name: "Tyson Ngo",
+    age: "21",
+    Reigon: "North America",
+    IGN: "TenZ",
+    Team: "Sentinels",
+    Retired: false,
+    VCTwinner: "true",
+    IGL: false,
+    totalEarnings: "$92,300",
+  },
+
+  {
+    name: "Ryan Ngo",
+    age: "20",
+    Reigon: "North America",
+    IGN: "Shanks",
+    Team: "Rise Nation",
+    Retired: true,
+    VCTwinner: "false",
+    IGL: false,
+    totalEarnings: "$8,895",
+  },
+
+  {
+    name: "Pujan Mehta",
+    age: "30",
+    Reigon: "North America",
+    IGN: "FNS",
+    Team: "Optic Gaming",
+    Retired: false,
+    VCTwinner: "true",
+    IGL: true,
+  },
+
+  {
+    name: "Timofey Khromov",
+    age: "20",
+    Reigon: "Europe",
+    IGN: "Chronicle",
+    Team: "FNATIC",
+    Retired: false,
+    VCTwinner: "false",
+    IGL: false,
+    totalEarnings: "$110,312",
+  },
+
+  {
+    name: "Jason Susanto",
+    age: "18",
+    Reigon: "APAC",
+    IGN: "f0rsakeN",
+    Team: "Paper Rex",
+    Retired: false,
+    VCTwinner: "false",
+    IGL: false,
+    totalEarnings: "$77,216",
+  },
+];
