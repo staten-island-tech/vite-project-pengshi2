@@ -1,4 +1,5 @@
 import "./style.css";
+import ".js/players.js";
 import javascriptLogo from "./javascript.svg";
 import { setupCounter } from "../counter.js";
 
