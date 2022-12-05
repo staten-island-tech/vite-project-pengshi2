@@ -5,13 +5,12 @@ const pros = [
     Reigon: "NA",
     IGN: "TenZ",
     Team: "Sentinels",
-    Retired: false,
     VCTwinner: true,
     role: "duelist",
     totalEarnings: "$92,300",
     ADR: "158",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F474x%2F30%2F53%2F32%2F305332833e27a6fb2cf6fc4f4be6f148.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fg-b--851813717031320991%2F&tbnid=cuLRD3mG8pcp_M&vet=12ahUKEwjXjZnmmtv7AhXJGVkFHaVNBIMQMygcegUIARCbAg..i&docid=OwDFpYmVK-5d3M&w=320&h=320&q=tenz%20funny%20pic&ved=2ahUKEwjXjZnmmtv7AhXJGVkFHaVNBIMQMygcegUIARCbAg",
+      "https://i.pinimg.com/474x/30/53/32/305332833e27a6fb2cf6fc4f4be6f148.jpg",
   },
 
   {
@@ -20,11 +19,12 @@ const pros = [
     Reigon: "NA",
     IGN: "Shanks",
     Team: "Rise Nation",
-    Retired: true,
     VCTwinner: false,
     role: "duelist",
     totalEarnings: "$8,895",
     ADR: "131.9",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yejx9nOaHOQ5hIvDoLqHuI3kTFMGU_Skw&usqp=CAU",
   },
 
   {
@@ -33,11 +33,11 @@ const pros = [
     Reigon: "NA",
     IGN: "FNS",
     Team: "NRG",
-    Retired: false,
     VCTwinner: true,
     role: "IGL",
     totalEarnings: "$148,200",
     ADR: "119.5",
+    image: "https://owcdn.net/img/6207470ac0601.png",
   },
 
   {
@@ -46,11 +46,12 @@ const pros = [
     Reigon: "EU",
     IGN: "Chronicle",
     Team: "FNATIC",
-    Retired: false,
     VCTwinner: true,
     role: "Fill",
     totalEarnings: "$110,312",
     ADR: "164.9",
+    image:
+      "https://cdn.thespike.gg/player%2520images%2FChronicle_1618049046701.png",
   },
 
   {
@@ -59,11 +60,12 @@ const pros = [
     Reigon: "APAC",
     IGN: "f0rsakeN",
     Team: "Paper Rex",
-    Retired: false,
     VCTwinner: false,
     role: "duelist",
     totalEarnings: "$77,216",
     ADR: "173",
+    image:
+      "https://liquipedia.net/commons/images/thumb/7/77/Paper_Rex_-_f0rsakeN.png/428px-Paper_Rex_-_f0rsakeN.png",
   },
 
   {
@@ -72,11 +74,12 @@ const pros = [
     Reigon: "NA",
     IGN: "yay",
     Team: "Cloud 9",
-    Retired: false,
     VCTwinner: true,
     role: "sentinel",
     totalEarnings: "$137,000",
     ADR: "157.8",
+    image:
+      "https://prosettings.net/acd-cgi/img/v1/wp-content/uploads/yay.png?dpr=1|fit=pad|format=webp|height=675|quality=85|sharpen=2|width=1200",
   },
   {
     name: "Bryan Luna",
@@ -84,11 +87,11 @@ const pros = [
     Reigon: "LATAM",
     IGN: "pANcada",
     Team: "Sentinels",
-    retired: false,
     VCTwinner: true,
     role: "smokes",
     totalEarnings: "$100,584",
     ADR: "137",
+    image: "https://owcdn.net/img/62789c51199c5.png",
   },
 
   {
@@ -97,11 +100,11 @@ const pros = [
     Reigon: "APAC",
     IGN: "Laz",
     Team: "ZETA Division",
-    retired: false,
     VCTwinner: false,
     role: "IGL",
     totalEarnings: "61,669",
     ADR: "152.6",
+    image: "https://prosettings.net/wp-content/uploads/laz.png",
   },
 
   {
@@ -110,11 +113,11 @@ const pros = [
     Reigon: "LATAM",
     IGN: "Sacy",
     Team: "Sentinels",
-    retired: false,
     VCTwinner: false,
     role: "IGL",
     totalEarnings: "$115,892",
     ADR: "157.5",
+    image: "",
   },
 
   {
@@ -123,11 +126,11 @@ const pros = [
     Reigon: "NA",
     IGN: "zombs",
     Team: "Sentinels",
-    retired: true,
     VCTwinner: true,
     role: "smokes",
     totalEarnings: "$113,500",
     ADR: "109.7",
+    image: "",
   },
 
   {
@@ -136,11 +139,11 @@ const pros = [
     Reigon: "APAC",
     IGN: "MaKo",
     Team: "DRX",
-    retired: false,
     VCTwinner: false,
     role: "smokes",
     totalEarnings: "$64,419",
     ADR: "146.1",
+    image: "",
   },
 
   {
@@ -149,7 +152,6 @@ const pros = [
     Reigon: "EU",
     IGN: "Derke",
     Team: "FNATIC",
-    retired: false,
     VCTwinner: false,
     role: "duelist",
     totalEarnings: "$82,435",
@@ -162,7 +164,6 @@ const pros = [
     Reigon: "NA",
     IGN: "Hiko",
     Team: "100T",
-    retired: true,
     VCTWinner: false,
     role: "initiator",
     totalEarnings: "$45,750",
@@ -175,8 +176,7 @@ const pros = [
     Reigon: "EU",
     IGN: "nAts",
     Team: "Team Liquid",
-    retired: "false",
-    VCTwinner: "true",
+    VCTwinner: true,
     role: "smokes",
     totalEarnings: "$110,640",
     ADR: "164.8",
@@ -188,9 +188,9 @@ const pros = [
     Reigon: "EU",
     IGN: "ardiis",
     Team: "NRG",
-    retired: "false",
-    VCTwinner: "true",
+    VCTwinner: true,
     role: "initiator",
+    totalEarnings: "$104,834",
     ADR: "146.9",
   },
 
@@ -200,9 +200,9 @@ const pros = [
     Reigon: "NA",
     IGN: "Zellsis",
     Team: "Cloud 9",
-    retired: "false",
-    VCTwinner: "false",
+    VCTwinner: false,
     role: "duelist",
+    totalEarnings: "$21,875",
     ADR: "164.5",
   },
 ];

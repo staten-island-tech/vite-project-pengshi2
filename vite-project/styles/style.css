@@ -6,6 +6,7 @@ html,
   background-color: aliceblue;
   text-align: center;
   margin: auto;
+  font-family: 'Lato', sans-serif;
 }
 
 .options-button {
@@ -16,6 +17,6 @@ html,
 
 
 .header {
-  color: black;
+  color: green;
   border: 1px black;
 }
