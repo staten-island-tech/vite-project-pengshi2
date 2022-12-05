@@ -1,8 +1,21 @@
 body,
 html,
-*
-{
-background-color: aliceblue;
-text-align: center;
-margin: auto;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  text-align: center;
+  margin: auto;
+}
+
+.options-button {
+  color: red;
+  scale: 90%;
+  margin: auto;
+}
+
+
+.header {
+  color: black;
+  border: 1px black;
 }

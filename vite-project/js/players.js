@@ -202,7 +202,7 @@ const pros = [
     Team: "Cloud 9",
     retired: "false",
     VCTwinner: "false",
-    role: "entry",
+    role: "duelist",
     ADR: "164.5",
   },
 ];
