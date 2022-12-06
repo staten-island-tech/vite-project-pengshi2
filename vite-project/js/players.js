@@ -23,8 +23,7 @@ const pros = [
     role: "duelist",
     totalEarnings: "$8,895",
     ADR: "131.9",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-yejx9nOaHOQ5hIvDoLqHuI3kTFMGU_Skw&usqp=CAU",
+    image: "https://owcdn.net/img/6224ad1180150.png",
   },
 
   {
@@ -117,7 +116,7 @@ const pros = [
     role: "IGL",
     totalEarnings: "$115,892",
     ADR: "157.5",
-    image: "",
+    image: "https://owcdn.net/img/62789c3cad191.png",
   },
 
   {
@@ -130,7 +129,8 @@ const pros = [
     role: "smokes",
     totalEarnings: "$113,500",
     ADR: "109.7",
-    image: "",
+    image:
+      "https://prosettings.net/acd-cgi/img/v1/wp-content/uploads/zombs.png?dpr=1|fit=pad|format=webp|height=675|quality=85|sharpen=2|width=1200",
   },
 
   {
@@ -143,7 +143,7 @@ const pros = [
     role: "smokes",
     totalEarnings: "$64,419",
     ADR: "146.1",
-    image: "",
+    image: "https://escorenews.com/media/logo/p67026.png",
   },
 
   {
@@ -156,6 +156,7 @@ const pros = [
     role: "duelist",
     totalEarnings: "$82,435",
     ADR: "199.1",
+    image: "https://prosettings.net/wp-content/uploads/derke.png",
   },
 
   {
@@ -168,6 +169,7 @@ const pros = [
     role: "initiator",
     totalEarnings: "$45,750",
     ADR: "129.8",
+    image: "https://i.imgur.com/XqQSRfm.png",
   },
 
   {
@@ -180,6 +182,7 @@ const pros = [
     role: "smokes",
     totalEarnings: "$110,640",
     ADR: "164.8",
+    image: "https://owcdn.net/img/60a0cf3460718.png",
   },
 
   {
@@ -192,6 +195,8 @@ const pros = [
     role: "initiator",
     totalEarnings: "$104,834",
     ADR: "146.9",
+    image:
+      "https://liquipedia.net/commons/images/thumb/a/a8/G2_Esports_ardiis_february_2021.png/216px-G2_Esports_ardiis_february_2021.png",
   },
 
   {
@@ -204,6 +209,7 @@ const pros = [
     role: "duelist",
     totalEarnings: "$21,875",
     ADR: "164.5",
+    image: "https://owcdn.net/img/6224aae7d88b0.png",
   },
 ];
 

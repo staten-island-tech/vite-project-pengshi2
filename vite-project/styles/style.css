@@ -3,9 +3,8 @@ html,
 * {
   margin: 0;
   padding: 0;
-  background-color: aliceblue;
   text-align: center;
-  margin: auto;
+  box-sizing: :border-box;
   font-family: 'Lato', sans-serif;
 }
 
@@ -15,8 +14,33 @@ html,
   margin: auto;
 }
 
+:root {
+  --pink:  #ffb7c5;
+  --white: #FFF;
+  --cyan: #00FFFF;
+  --black: #000;
 
-.header {
-  color: green;
-  border: 1px black;
-}
+  --primary:  var(--pink);
+  --secondary: var(--white);
+
+  --h1: 7.594rem;
+ }
+
+ .header {
+  background-color: var(--pink);
+ }
+ .main {
+  background-color: var(--secondary);
+  height: 90vh;
+ }
+  .dark{
+   --primary:var(--black);
+   --secondary: var(--cyan);
+  }
+
+  .light{
+    --primary:  var(--pink);
+    --secondary: var(--white);
+  }
+
+
