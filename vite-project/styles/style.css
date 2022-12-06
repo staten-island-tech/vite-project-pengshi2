@@ -1,5 +1,5 @@
+main,
 body,
-html,
 * {
   margin: 0;
   padding: 0;
@@ -8,39 +8,27 @@ html,
   font-family: 'Lato', sans-serif;
 }
 
-.options-button {
-  color: red;
-  scale: 90%;
-  margin: auto;
-}
 
 :root {
-  --pink:  #ffb7c5;
-  --white: #FFF;
-  --cyan: #00FFFF;
-  --black: #000;
+  --light-background-primary:  #ffb7c5;
+  --light-background-secondary: #FFF;
 
-  --primary:  var(--pink);
-  --secondary: var(--white);
+  --dark-background-primary: #2fd9d9;
+  --dark-background-secondary: #000;
 
-  --h1: 7.594rem;
+  --background: rgb(255,254,249);
+  --background-secondary: rgb(255,220,215);
+
  }
 
- .header {
-  background-color: var(--pink);
- }
- .main {
-  background-color: var(--secondary);
-  height: 90vh;
- }
   .dark{
-   --primary:var(--black);
-   --secondary: var(--cyan);
+   --background-primary :var(--dark-background-primary);
+   --secondary-primary : var(--dark-background-secondary);
   }
 
   .light{
-    --primary:  var(--pink);
-    --secondary: var(--white);
+    --background-primary:  var(--light-background-primary);
+    --background-secondary: var(--light-background-secondary);
   }
 
 

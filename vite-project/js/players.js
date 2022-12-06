@@ -1,154 +1,120 @@
 const pros = [
   {
     name: "Tyson Ngo",
-    age: "21",
     Reigon: "NA",
     IGN: "TenZ",
     Team: "Sentinels",
     VCTwinner: true,
     role: "duelist",
-    totalEarnings: "$92,300",
-    ADR: "158",
     image:
       "https://i.pinimg.com/474x/30/53/32/305332833e27a6fb2cf6fc4f4be6f148.jpg",
   },
 
   {
     name: "Ryan Ngo",
-    age: "20",
     Reigon: "NA",
     IGN: "Shanks",
     Team: "Rise Nation",
     VCTwinner: false,
     role: "duelist",
-    totalEarnings: "$8,895",
-    ADR: "131.9",
     image: "https://owcdn.net/img/6224ad1180150.png",
   },
 
   {
     name: "Pujan Mehta",
-    age: "30",
     Reigon: "NA",
     IGN: "FNS",
     Team: "NRG",
     VCTwinner: true,
     role: "IGL",
-    totalEarnings: "$148,200",
-    ADR: "119.5",
     image: "https://owcdn.net/img/6207470ac0601.png",
   },
 
   {
     name: "Timofey Khromov",
-    age: "20",
     Reigon: "EU",
     IGN: "Chronicle",
     Team: "FNATIC",
     VCTwinner: true,
     role: "Fill",
-    totalEarnings: "$110,312",
-    ADR: "164.9",
     image:
       "https://cdn.thespike.gg/player%2520images%2FChronicle_1618049046701.png",
   },
 
   {
     name: "Jason Susanto",
-    age: "18",
     Reigon: "APAC",
     IGN: "f0rsakeN",
     Team: "Paper Rex",
     VCTwinner: false,
     role: "duelist",
-    totalEarnings: "$77,216",
-    ADR: "173",
     image:
       "https://liquipedia.net/commons/images/thumb/7/77/Paper_Rex_-_f0rsakeN.png/428px-Paper_Rex_-_f0rsakeN.png",
   },
 
   {
     name: "Jaccob Whiteaker",
-    age: "24",
     Reigon: "NA",
     IGN: "yay",
     Team: "Cloud 9",
     VCTwinner: true,
     role: "sentinel",
-    totalEarnings: "$137,000",
-    ADR: "157.8",
     image:
       "https://prosettings.net/acd-cgi/img/v1/wp-content/uploads/yay.png?dpr=1|fit=pad|format=webp|height=675|quality=85|sharpen=2|width=1200",
   },
   {
     name: "Bryan Luna",
-    age: "23",
     Reigon: "LATAM",
     IGN: "pANcada",
     Team: "Sentinels",
     VCTwinner: true,
     role: "smokes",
-    totalEarnings: "$100,584",
-    ADR: "137",
     image: "https://owcdn.net/img/62789c51199c5.png",
   },
 
   {
     name: "Ushia Koji",
-    age: "27",
     Reigon: "APAC",
     IGN: "Laz",
     Team: "ZETA Division",
     VCTwinner: false,
     role: "IGL",
-    totalEarnings: "61,669",
-    ADR: "152.6",
     image: "https://prosettings.net/wp-content/uploads/laz.png",
   },
 
   {
     name: "Gustavo Rossi",
-    age: "24",
     Reigon: "LATAM",
     IGN: "Sacy",
     Team: "Sentinels",
     VCTwinner: false,
     role: "IGL",
-    totalEarnings: "$115,892",
-    ADR: "157.5",
     image: "https://owcdn.net/img/62789c3cad191.png",
   },
 
   {
     name: "Jared Gitlin",
-    age: "24",
     Reigon: "NA",
     IGN: "zombs",
     Team: "Sentinels",
     VCTwinner: true,
     role: "smokes",
-    totalEarnings: "$113,500",
-    ADR: "109.7",
     image:
       "https://prosettings.net/acd-cgi/img/v1/wp-content/uploads/zombs.png?dpr=1|fit=pad|format=webp|height=675|quality=85|sharpen=2|width=1200",
   },
 
   {
     name: "Kim Myeong-Kwan",
-    age: "20",
     Reigon: "APAC",
     IGN: "MaKo",
     Team: "DRX",
     VCTwinner: false,
     role: "smokes",
-    totalEarnings: "$64,419",
-    ADR: "146.1",
     image: "https://escorenews.com/media/logo/p67026.png",
   },
 
   {
     name: "Nikita Sirmitev",
-    age: "19",
     Reigon: "EU",
     IGN: "Derke",
     Team: "FNATIC",
@@ -161,20 +127,17 @@ const pros = [
 
   {
     name: "Spencer Martin ",
-    age: "32",
     Reigon: "NA",
     IGN: "Hiko",
     Team: "100T",
     VCTWinner: false,
     role: "initiator",
     totalEarnings: "$45,750",
-    ADR: "129.8",
     image: "https://i.imgur.com/XqQSRfm.png",
   },
 
   {
     name: "Ayaz Akhmetshin",
-    age: "20",
     Reigon: "EU",
     IGN: "nAts",
     Team: "Team Liquid",
@@ -187,28 +150,24 @@ const pros = [
 
   {
     name: "Ardis Svarenieks",
-    age: "24",
     Reigon: "EU",
     IGN: "ardiis",
     Team: "NRG",
     VCTwinner: true,
     role: "initiator",
     totalEarnings: "$104,834",
-    ADR: "146.9",
     image:
       "https://liquipedia.net/commons/images/thumb/a/a8/G2_Esports_ardiis_february_2021.png/216px-G2_Esports_ardiis_february_2021.png",
   },
 
   {
     name: "Jordan Montemurro",
-    age: "24",
     Reigon: "NA",
     IGN: "Zellsis",
     Team: "Cloud 9",
     VCTwinner: false,
     role: "duelist",
     totalEarnings: "$21,875",
-    ADR: "164.5",
     image: "https://owcdn.net/img/6224aae7d88b0.png",
   },
 ];
