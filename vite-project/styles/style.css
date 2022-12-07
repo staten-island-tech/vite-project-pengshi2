@@ -11,24 +11,29 @@ body,
 
 :root {
   --light-background:  #ffb7c5;
-  --light-background-secondary: #FFF;
+  --light-playerbg: #FFF;
+  --light-header: #F0F8FF;
 
-  --dark-background: #2fd9d9;
-  --dark-background-secondary: #000;
+  --dark-background: #000;
+  --dark-playerbg: #2fd9d9;
+  --dark-header: #808080;
 
-  --background: rgb(255,254,249);
-  --background-secondary: rgb(255,220,215);
+  --header: #E8E3D5;
+  --background: #FCBCE6;
+  --playerbg: #808080;
 
  }
 
   .dark{
-   --background-primary :var(--dark-background);
-   --secondary-primary : var(--dark-background-secondary);
+   --background:var(--dark-background);
+   --header:var(--dark-header);
+   --playerbg:var(--dark-playerbg);
   }
 
   .light{
-    --background-primary:  var(--light-background);
-    --background-secondary: var(--light-background-secondary);
+    --background:  var(--light-background);
+    --header: var(--light-header);
+    --playerbg: var(--light-playerbg);
   }
 
 
