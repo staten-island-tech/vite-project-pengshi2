@@ -5,36 +5,59 @@ body,
   padding: 0;
   text-align: center;
   box-sizing: border-box;
+
   font-family: 'Lato', sans-serif;
   
 }
 
-
 :root {
-  --light-background: #ffb7c5;
-  --light-foodbg: #FFF;
-  --light-header: #F0F8FF;
+  --light-background: rgb(255, 183, 197);
+  --light-header: rgb(240, 248, 255);
 
-  --dark-background: #000;
-  --dark-foodbg: #2fd9d9;
-  --dark-header: #808080;
+  --dark-background: rgb(0, 0, 0);
+  --dark-header: rgb(128, 128, 128);
 
-  --header: #E8E3D5;
-  --background: #FCBCE6;
-  --foodbg: #808080;
+  --header: rgb(232, 227, 213);
+  --background: rgb(252, 188, 230);
+}
+
+{
+  --h1: 7.594rem;
+  --h2: 5.063rem;
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;
 
  }
 
-  .dark{
-   --background:var(--dark-background);
-   --header:var(--dark-header);
-   --foodbg:var(--dark-foodbg);
+  .dark {
+   --background: var(--dark-background);
+   --header: var(--dark-header);
+  
   }
 
-  .light{
+  .light {
     --background: var(--light-background);
     --header: var(--light-header);
-    --foodbg: var(--light-foodbg);
   }
 
+body {
+  background-color: var(--light-background);
+  height: 90vh;
+}
+h1 {
+  font-size: var(--h1);
+}
+h2 {
+  font-size: var(--h2);
+}
+h3 {
+  font-size: var(--h3);
+}
+h4 {
+  font-size: var(--h4);
+}
+h5 {
+  font-size: var(--h5);
+}
 
