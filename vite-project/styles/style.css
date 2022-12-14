@@ -11,28 +11,62 @@ body,
 :root {
   --light-background: rgb(255, 183, 197);
   --light-header: rgb(240, 248, 255);
+  --light-font: rgb(97, 80, 90);
 
-  --dark-background: rgb(0, 0, 0);
-  --dark-header: rgb(128, 128, 128);
+  --dark-background: rgb(128, 128, 128);
+  --dark-header: rgb(33, 57, 66);
+  --dark-font: rgb(45,26,152);
 
   --header: rgb(232, 227, 213);
   --background: rgb(252, 188, 230);
+  --font: rgb(3,5,232);
 
 }
 
   .dark {
    --background: var(--dark-background);
    --header: var(--dark-header);
+   --font: var(--dark-font);
   
    }
 
   .light {
     --background: var(--light-background);
     --header: var(--light-header);
+    --font: var(--light-font);
   }
+  
  body {
-  background-color: var(--light-background);
+  background-color: var(--background);
+  color: var(--font);
   height: 90vh;
 }
 
 
+h1 {
+  margin: auto;
+  width: 40%;
+  font-size: 2rem;
+  background-color: var(--header);
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+#theme-button {
+  width:  5rem;
+  height: 2rem;
+  font-size: 0.7rem;
+}
+
+.options-button {
+   size: 115%
+   color: red;
+}
