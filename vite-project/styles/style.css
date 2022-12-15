@@ -10,12 +10,12 @@ body,
 
 :root {
   --light-background: rgb(255, 183, 197);
-  --light-header: rgb(240, 248, 255);
-  --light-font: rgb(97, 80, 90);
+  --light-header: rgb(227, 234, 240);
+  --light-font: rgb(238, 131, 193);
 
-  --dark-background: rgb(128, 128, 128);
-  --dark-header: rgb(33, 57, 66);
-  --dark-font: rgb(45,26,152);
+  --dark-background: rgb(95, 93, 93);
+  --dark-header: rgb(68, 76, 80);
+  --dark-font: rgb(107, 107, 109);
 
   --header: rgb(232, 227, 213);
   --background: rgb(252, 188, 230);
@@ -45,11 +45,12 @@ body,
 
 h1 {
   margin: auto;
-  width: 40%;
+  width: 35%;
   font-size: 2rem;
   background-color: var(--header);
   border: 2px solid black;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .menu {
@@ -64,9 +65,11 @@ h1 {
   width:  5rem;
   height: 2rem;
   font-size: 0.7rem;
+  position: absolute;
 }
 
-.options-button {
-   size: 115%
-   color: red;
+
+#options {
+  size: 150%;
 }
+
