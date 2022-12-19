@@ -15,9 +15,9 @@ function foo() {
   menu.forEach((item) => {
     menuDiv.insertAdjacentHTML(
       "beforeend",
-      `<div class="items">
+      `<div class="items-thing">
               <h2 class = "item-name">${item.name}</h2>
-              <img class="item-image" src=${item.image}>
+              <img class="item-image" src= "${item.image}">
               <p class="item-price">${item.price}</p>
               <p class="item-description">${item.description}</p>
           </div>`

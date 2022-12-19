@@ -51,7 +51,7 @@ export const menu = [
     vegetarian: false,
     rating: "5star",
     image:
-      "https://ddl1ff62eln9g.cloudfront.net/ez-image/165149/Sushi_-5.jpg?fh=1200&fw=600&h=1500&l=0&oh=2000&ow=3000&q=60&t=152&w=3000",
+      "https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2019/07/Take-away-sushi-rolls_3781NM.jpg",
   },
 
   {
