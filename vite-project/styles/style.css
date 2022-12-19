@@ -12,12 +12,12 @@ body,
   --light-background: rgb(255, 183, 197);
   --light-header: rgb(227, 234, 240);
   --light-font: rgb(238, 131, 193);
-  --light-options-button: rgb(73, 70, 71);
+  --light-options-button: rgb(202, 202, 202);
 
   --dark-background: rgb(95, 93, 93);
   --dark-header: rgb(68, 76, 80);
   --dark-font: rgb(107, 107, 109);
-  --dark-options-button: rgb(24,52,252);
+  --dark-options-button: rgb(47, 61, 165);
 
   --header: rgb(232, 227, 213);
   --background: rgb(252, 188, 230);
@@ -62,7 +62,7 @@ h1 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
-
+ border: 1px black;
 }
 
 #theme-button {
@@ -87,11 +87,33 @@ h1 {
 }
 
 
-.items {
-  justify-content: space-evenly;
-  text-align: center;
-  border-radius: 1px black;
-  scale: 20%;
-  box-sizing: border-box;
+.items{
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+
+.item-name {
+ font-size: 4rem;
+ margin: auto;
+
+}
+
+.item-image {
+scale: 40%;
+margin: auto;
+
+}
+
+.item-price {
+  font-size: 4rem;
+  margin: auto;
+}
+
+.item-description {
+  font-size: 4rem;
+  margin: auto;
 }

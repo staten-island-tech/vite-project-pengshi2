@@ -10,18 +10,15 @@ document.getElementById("theme-button").addEventListener("click", function () {
 
 let menuDiv = document.querySelector("#menu");
 
- foo()
+foo();
 function foo() {
- menu.forEach((item) => {
+  menu.forEach((item) => {
     menuDiv.insertAdjacentHTML(
       "beforeend",
       `<div class="items">
-              <h2>${item.name}</h2>
-              <br>
+              <h2 class = "item-name">${item.name}</h2>
               <img class="item-image" src=${item.image}>
-              <br>
               <p class="item-price">${item.price}</p>
-              <br>
               <p class="item-description">${item.description}</p>
           </div>`
     );
