@@ -24,3 +24,7 @@ function foo() {
     );
   });
 }
+
+document.querySelector("#chicken").addEventListener("click", function() {
+    const filtered = menu.filter((item) => item.meatType === "chicken")
+})

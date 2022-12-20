@@ -2,7 +2,7 @@ export const menu = [
   {
     name: "Steak",
     meatType: "beef",
-    description: "Fine Steak",
+    description: "A5 Steak",
     price: 20,
     vegetarian: false,
     image:
@@ -13,7 +13,7 @@ export const menu = [
   {
     name: " Cheese Pizza",
     meatType: "none",
-    description: "Good Italian Pizza",
+    description: "Authenthic Italian Pizza",
     price: 12,
     vegetarian: true,
     image:
@@ -24,7 +24,7 @@ export const menu = [
   {
     name: "Mozzerella Sticks",
     meatType: "none",
-    description: "Delicous Cheesy Mozzerella Sticks",
+    description: "Cheesy Mozzerella Sticks",
     price: 8,
     vegetarian: true,
     image:
@@ -87,9 +87,9 @@ export const menu = [
   },
 
   {
-    name: "Stir-Fried Beef N Broccoli",
+    name: "Stir-Fried Beef",
     meatType: "beef",
-    description: "Amazing Chinese Stir-fried beef",
+    description: "Amazing Stir-Fried Beef",
     price: 10,
     vegetarian: false,
     rating: "5star",
