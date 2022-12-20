@@ -13,16 +13,19 @@ body,
   --light-header: rgb(227, 234, 240);
   --light-font: rgb(238, 131, 193);
   --light-options-button: rgb(202, 202, 202);
+  --light-itemBG: rgb(23,52,3);
 
   --dark-background: rgb(95, 93, 93);
   --dark-header: rgb(68, 76, 80);
   --dark-font: rgb(107, 107, 109);
   --dark-options-button: rgb(47, 61, 165);
+  --dark-itemBG: rgb(42,52,55);
 
   --header: rgb(232, 227, 213);
   --background: rgb(252, 188, 230);
   --font: rgb(3,5,232);
   --options-button: rgb(42,63,214);
+  --itemBG: rgb(2,4,53);
 
 }
 
@@ -31,6 +34,7 @@ body,
    --header: var(--dark-header);
    --font: var(--dark-font);
    --options-button: var(--dark-options-button);
+   --itemBG: var(--dark-itemBG);
    }
 
   .light {
@@ -38,6 +42,7 @@ body,
     --header: var(--light-header);
     --font: var(--light-font);
     --options-button: var(--light-options-button);
+    --itemBG: var(--light-itemBG);
   }
   
  body {
@@ -81,6 +86,7 @@ h1 {
   width: 10rem;
   height: 2rem;
   background-color: var(--options-button);
+  margin-bottom: 10px;
 }
 
 
@@ -108,5 +114,5 @@ h1 {
 
 img {
   width: 7vw;
-  height: fit-content;
+  height: auto;
 }
