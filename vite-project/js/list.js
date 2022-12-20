@@ -6,7 +6,7 @@ export const menu = [
     price: 20,
     vegetarian: false,
     image:
-      "https://www.tastingtable.com/img/gallery/15-ingredients-that-will-seriously-elevate-your-steak/l-intro-1663169111.jpg",
+      "https://cdn.statically.io/img/whitneybond.com/f=auto/wp-content/uploads/2021/06/steak-marinade-13.jpg",
     rating: "5star",
   },
 

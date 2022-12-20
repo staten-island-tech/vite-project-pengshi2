@@ -43,7 +43,7 @@ body,
  body {
   background-color: var(--background);
   color: var(--font);
-  height: 10vh;
+  height: 1vh;
 }
 
 
@@ -61,8 +61,6 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  align-self: center;
-  
 }
 
 #theme-button {
@@ -87,31 +85,28 @@ h1 {
 
 
 .items-thing {
-  width: 30%;
+   width: 21%;
     text-align: center;
     border: 3px solid black;
     border-radius: 10px;
-    margin-bottom: 10px;
-    height: 300px ;
+    margin-bottom: 15px;
+    height: 275px ;
 }
 
 .item-name {
- font-size: 2rem;
- align-self: auto;
-}
-
-.item-image {
-scale: 15%;
-margin: 10px auto;
-align-self: auto;
+ font-size: 1.8rem;
 }
 
 .item-price {
-  font-size: 2rem;
-  align-self: auto;
+  font-size: 1rem;
 }
 
 .item-description {
-  font-size: 2rem;
-  align-self: auto;
+  font-size: 1.5rem;
+  margin-top: 10px auto;
+}
+
+img {
+  width: 7vw;
+  height: fit-content;
 }
