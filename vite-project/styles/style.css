@@ -73,10 +73,8 @@ h1 {
   width:  5rem;
   height: 2rem;
   font-size: 0.7rem;
-  position: absolute;
   background-color: white;
-  left: 100px;
-  margin-top: auto;
+  margin-bottom: 10px;
   
 }
 

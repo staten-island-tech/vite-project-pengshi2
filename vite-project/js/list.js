@@ -13,7 +13,7 @@ export const menu = [
   {
     name: " Cheese Pizza",
     meatType: "none",
-    description: "Authenthic Italian Pizza",
+    description: "Tasty Italian Pizza",
     price: 12,
     vegetarian: true,
     image:
@@ -89,7 +89,7 @@ export const menu = [
   {
     name: "Stir-Fried Beef",
     meatType: "beef",
-    description: "Amazing Stir-Fried Beef",
+    description: "Yummy Stir-Fried Beef",
     price: 10,
     vegetarian: false,
     rating: "5star",
@@ -108,5 +108,3 @@ export const menu = [
     rating: "4star",
   },
 ];
-
-console.log(menu);
