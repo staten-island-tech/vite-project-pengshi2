@@ -9,9 +9,9 @@ body,
 }
 
 :root {
-  --light-background: rgb(245, 132, 155);
+  --light-background: rgb(252, 172, 188);
   --light-header: rgb(227, 234, 240);
-  --light-font: rgb(238, 175, 212);
+  --light-font: rgb(248, 74, 176);
   --light-options-button: rgb(202, 202, 202);
   --light-itemBG: rgb(23,52,3);
 
