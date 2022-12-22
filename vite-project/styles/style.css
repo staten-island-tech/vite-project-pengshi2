@@ -31,7 +31,6 @@ body,
    --header: var(--dark-header);
    --font: var(--dark-font);
    --options-button: var(--dark-options-button);
-   --itemBG: var(--dark-itemBG);
    }
 
   .light {
@@ -39,7 +38,6 @@ body,
     --header: var(--light-header);
     --font: var(--light-font);
     --options-button: var(--light-options-button);
-    --itemBG: var(--light-itemBG);
   }
   
  body {
