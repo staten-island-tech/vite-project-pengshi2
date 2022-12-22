@@ -13,19 +13,16 @@ body,
   --light-header: rgb(227, 234, 240);
   --light-font: rgb(248, 74, 176);
   --light-options-button: rgb(202, 202, 202);
-  --light-itemBG: rgb(23,52,3);
 
   --dark-background: rgb(124, 122, 122);
   --dark-header: rgb(68, 76, 80);
   --dark-font: rgb(48, 48, 49);
   --dark-options-button: rgb(47, 61, 165);
-  --dark-itemBG: rgb(42,52,55);
 
   --header: rgb(232, 227, 213);
   --background: rgb(252, 188, 230);
   --font: rgb(3,5,232);
   --options-button: rgb(42,63,214);
-  --itemBG: rgb(2,4,53);
 
 }
 
